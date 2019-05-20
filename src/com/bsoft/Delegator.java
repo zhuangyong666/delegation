@@ -6,7 +6,7 @@ package com.bsoft;
  * @Author: zhuangy
  * @Date: 2019-05-16 14:23
  **/
-public class Delegator {
+public class Delegator implements Executor{
     private Executor executor;
 
     public Delegator(Executor executor) {
